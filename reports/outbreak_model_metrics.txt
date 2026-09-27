@@ -1,0 +1,39 @@
+Selected model: EasyEnsemble (monthly-lagged, production)
+
+{
+  "model": "EasyEnsemble",
+  "threshold": 0.5950523639013006,
+  "base_rate": 0.12870159453302962,
+  "accuracy": 0.7619589977220956,
+  "f1_score": 0.3785926660059465,
+  "precision": 0.28507462686567164,
+  "recall": 0.5634218289085545,
+  "roc_auc": 0.7661052949531173,
+  "lift_over_base_rate": 2.2150046229031832,
+  "train_rows": 78581,
+  "test_rows": 5268,
+  "test_years": "[2024]",
+  "train_years": "2000-2023"
+}
+
+Confusion matrix (rows=actual, cols=predicted):
+[[3632  958]
+ [ 296  382]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.92      0.79      0.85      4590
+           1       0.29      0.56      0.38       678
+
+    accuracy                           0.76      5268
+   macro avg       0.60      0.68      0.62      5268
+weighted avg       0.84      0.76      0.79      5268
+
+
+=== Model comparison (RandomForest vs XGBoost vs EasyEnsemble, monthly-lagged grain) ===
+              threshold  base_rate  accuracy  f1_score  precision    recall   roc_auc  lift_over_base_rate
+model                                                                                                     
+RandomForest   0.660553   0.128702  0.839598  0.326693   0.355286  0.302360  0.762344             2.760540
+XGBoost        0.728411   0.128702  0.835991  0.308800   0.337413  0.284661  0.742382             2.621666
+EasyEnsemble   0.595052   0.128702  0.761959  0.378593   0.285075  0.563422  0.766105             2.215005

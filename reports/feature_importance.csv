@@ -1,0 +1,16 @@
+,importance
+reporting_freq_52wk_prevmonth,0.39560707279289514
+state_encoded,0.12874653265675645
+Avg_Temp_C_prevmonth,0.10978251962090355
+temp_lag1_prevmonth,0.10159779750693117
+neighbor_outbreak_recent_prevmonth,0.09300655826660417
+month_approx,0.07027318230934396
+Weekly_Rainfall_prevmonth,0.04840400336915253
+rain_anomaly_prevmonth,0.02322921169361492
+monsoon_cum_rain_prevmonth,0.01179317362792529
+temp_anomaly_prevmonth,0.008383330239882969
+rain_lag1_prevmonth,0.006291950457014898
+rain_3wk_avg_prevmonth,0.002884667458974943
+is_monsoon_prevmonth,0.0
+dry_then_deluge_prevmonth,0.0
+extreme_rain_count_6wk_prevmonth,0.0
