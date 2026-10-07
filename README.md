@@ -1,8 +1,4 @@
-# Smart Community Health Monitoring and Early Warning System — Final Dashboard (Iteration 3)
-
-This is the minimal, final set of files needed to run the dashboard as reported.
-No trial scripts, diagnostics, plots, or superseded iterations are included —
-only what Iteration 3 (the monthly-lagged EasyEnsemble model) actually uses.
+# Smart Community Health Monitoring and Early Warning System
 
 ## What's here
 
